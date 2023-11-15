@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
+
+body  {
+    font-family:   Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #fffffe;
+}
+ .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+nav .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+nav ul {
+    list-style: none;
+    display: flex;
+
+}
+nav .logo {
+    color: #094067;
+    font-size: xx-large;
+    font-weight: bold;
+}
+nav ul li {
+    margin-left: 25px;
+}
+nav ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #094067;
+    font-weight: 600;
+}
+
+.headline {
+    color: #094067;
+    font-size: 30px;
+}
+
+.paragraph {
+    color: #5f6c7b;
+    font-size: 20px;
+}
+
+#home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height:  100vh;
+
+}
+.btn {
+    border: none;
+    padding: 15px 24px;
+    background-color: #3da9fc;
+    border-radius: 12px;
+    font-size: 20px;
+    color: white;
+    font-weight:400;
+    font-family: 'roboto';
+    margin-bottom: 30px;
+}
+.profile {
+    border: 3px black solid;
+    border-radius: 250px;
+    background-color: #3da9fc;
+}
+
+#about {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height:  100vh;
+}
+#about .title {
+font-size: 30px;
+color: #094067;
+}
+
+#about p {
+    font-size: 20px;
+    max-width: 700px;
+    line-height: 2rem;
+    color: #5f6c7b;
+}
+
+.icons {
+    display: flex;
+    border: solid black 3px;
+    border-radius: 18px;
+}
+.icons .img {
+    width: 60px;
+    padding: 15px;
+}
+
+.icons button {
+    background-color: white;
+    border: none;
+}
